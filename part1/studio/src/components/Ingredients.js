@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './Ingredients.css';
+// import React from 'react';
+import styles from './Ingredients.module.css';
 
 export default function RecipeIngredients() {
     let ingredients = ["peanut butter", "oats", "chia seeds", "pepitas", "maple syrup"]

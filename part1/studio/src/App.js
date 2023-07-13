@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <div className="recipePhotoBlock">
       <RecipePhoto />
+      {/* <div> */}
       <div className="recipePhotoBlock">
         <RecipeDescription />
         <RecipeIngredients />

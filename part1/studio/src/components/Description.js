@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Description.css';
+import styles from './Description.module.css';
 
 function RecipeAuthor() {
     let authorLink = "https://allthehealthythings.com/"
@@ -10,7 +10,7 @@ function RecipeAuthor() {
 
 
     <div className = {styles.recipeAuthorBlock}>
-        <img src={authorPhoto} alt ="Photo of a smiling woman measuring out flour" className={styles.imageUpdates} /> 
+        <img src={authorPhoto} alt ="a smiling woman measuring out flour" className={styles.imageUpdates} /> 
         <div>
            <h3>{authorName}</h3>
            <a href={authorLink}>All the Healthy Things</a>
@@ -25,7 +25,7 @@ class RecipeDescription extends React.Component {
           <div>
             <div>
              <h1>Monster Cookie Energy Balls</h1>
-             <p>packed with gluten free oats, shredded coconut, honey, pumpkin seeds, and all natural creamy peanut butter. These energy balls are perfect for a quick snack or an after dinner treat. They are gluten free, vegan, and so easy to make!</p>
+             <p>These energy balls are perfect for a quick snack or an after dinner treat. They are gluten free, vegan, and so easy to make!</p>
           </div>
           <RecipeAuthor />
           </div>

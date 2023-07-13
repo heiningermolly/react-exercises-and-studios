@@ -5,7 +5,6 @@
 
 .imageUpdates {
     object-fit: contain;
-    height: 20px;
-    width: auto;
+    height: 300px;
 }
 
